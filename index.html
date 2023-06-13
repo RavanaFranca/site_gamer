@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Site Gamer</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+   
+   <style>
+
+
+    /* Carrossel de produtos */
+      .custom-carousel-container {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 30px;
+        position: relative;
+      }
+
+      .custom-carousel-slide {
+        display: flex;
+        width: 100%;
+      }
+
+      .custom-carousel-item {
+        flex: 0 0 20%;
+        text-align: center;
+      }
+
+      .custom-carousel-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      .custom-carousel-item p {
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .custom-carousel-control {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+      }
+
+      .custom-carousel-control.prev {
+        left: 10px;
+      }
+
+      .custom-carousel-control.next {
+        right: 10px;
+      }
+  </style>
+</head>
+<body class="bg-dark">
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#!"><img src="img/SENAI-SP.jpg" width="20%" height="50%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="search-box">
+                <input type="text" placeholder="Pesquisar...">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home"><p class="text-white">Home</p></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produtos"><p class="text-white">Produtos</p></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato"><p class="text-white">Contato</p></a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html" target="_blank"><p class="text-white">Login</p></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content-->
+
+    <div class="container px-4 px-lg-5">
+        <section id="home">
+            <!-- Home-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-5 text-white">
+                    <h1 class="font-weight-light text-white">Quem somos</h1>
+<p class="text-align-center">Bem-vindo à nossa incrível loja gamer, o paraíso dos entusiastas de jogos! Aqui você encontrará tudo o que precisa para aprimorar sua experiência de jogo e mergulhar em aventuras emocionantes. Prepare-se para descobrir um universo repleto de tecnologia de ponta, equipamentos de última geração e uma variedade de produtos projetados para satisfazer as necessidades dos jogadores mais exigentes.</p> 
+<p class="text-align-center">Nossa loja é um verdadeiro playground digital, projetado para atender a todos os tipos de jogadores, desde os novos até os mais experientes. Temos uma ampla gama de consoles de videogame, incluindo os mais recentes lançamentos, para que você possa desfrutar dos jogos mais populares do momento. Além disso, oferecemos uma seleção impressionante de computadores gamers de alta performance, capazes de lidar com os gráficos mais intensos e os jogos mais exigentes.</p>                </div>
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="img/game-console-g546af7e68_640.jpg" alt="..." /></div>
+            </div>
+        </section>
+
+        <!-- Content Row - Produtos-->
+        <section id="produtos">
+            <div class="custom-carousel-container">
+                <div class="custom-carousel-slide">
+                    <div class="custom-carousel-item">
+                        
+                        <img src="img/gamer-g3e22f4115_1280.jpg" alt="Produto 1">
+                        <h3 class="text-white">Kit Mouse + Teclado</h3>
+                      </div>
+                
+                      <div class="custom-carousel-item">
+                          <img src="img/ram-gea2ea6823_1280.jpg" alt="Produto 2">
+                          <h3 class="text-white">Memória RAM</h3>
+                        </div>
+                
+                      <div class="custom-carousel-item">
+                        <img src="img/machine-geb8e66d5d_1280.jpg" alt="Produto 3">
+                        <h3 class="text-white">Montamos o seu PC GAMER!</h3>
+                      </div>
+                
+                      <div class="custom-carousel-item">
+                        <img src="img/video-game-console-gcae1b3286_1280.jpg" alt="Produto 4">
+                        <h3 class="text-white">Xbox</h3>
+                      </div>
+                
+                      <div class="custom-carousel-item">
+                        <img src="img/Minecraft_capa.png" alt="Produto 5">
+                        <h3 class="text-white">Minecraft</h3>
+
+                      </div>
+                
+                      <div class="custom-carousel-item">
+                        <img src="img/fone.jpg" alt="Produto 6">
+                        <h3 class="text-white">Headset</h3>
+                      </div>
+                      <div class="custom-carousel-item">
+                        <img src="img/monitor.jpg" alt="Produto 7">
+                        <h3 class="text-white">Monitor</h3>
+                      </div>
+                      <div class="custom-carousel-item">
+                        <img src="img/hd.jpg" alt="Produto 8">
+                        <h3 class="text-white">HD</h3>
+                      </div>
+                      <div class="custom-carousel-item">
+                        <img src="img/download.jpeg" alt="Produto 9">
+                        <h3 class="text-white">Cadeira Gamer</h3>
+                      </div>
+                      <div class="custom-carousel-item">
+                        <img src="img/sims.jpg" alt="Produto 10">
+                        <h3 class="text-white">The Sims 4</h3>
+                      </div>
+                </div>
+                <div class="custom-carousel-control prev">&#10094;</div>
+                <div class="custom-carousel-control next">&#10095;</div>
+            </div>
+        </section>
+
+        <!-- Contato-->
+        <section id="contato">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 justify-content-left form-container">
+                    <form class="bg-primary text-align-center">
+                        <input type="text" name="nome" placeholder="Nome">
+                        <input type="text" name="email" placeholder="Email">
+                        <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <div class="col-lg-8 col-xl-6 justify-content-right map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7115628685006!2d-46.62409402573271!3d-23.542874460911243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58e2bc6fdbb5%3A0x56e5728408f35323!2sEscola%20SENAI%20%22Roberto%20Simonsen%22!5e0!3m2!1spt-BR!2sbr!4v1686490828804!5m2!1spt-BR!2sbr" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br>
+        </div>
+
+        <!-- Footer - Rodapé-->
+        <footer class="py-5 bg-primary">
+            <div class="container px-4 px-lg-5 d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <img src="img/SENAI-SP.jpg" alt="Logo" height="24px">
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/senainacional/about/?ref=page_internal" target="_blank"><img src="img/facebook-app-logo.png" alt="Logo" height="24px"></a>
+                    <a href="https://www.instagram.com/senai_nacional/" target="_blank"><img src="img/instagram.png" alt="Logo" height="24px"></a>
+                    <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><img src="img/phone-call.png" alt="Logo" height="24px"></a>
+                    <a href="mailto:secretariaead@sp.senai.br" ><img src="img/email-removebg-preview.png" alt="Logo" height="24px"></a>
+                </div>
+            </div>
+            <div class="container px-4 px-lg-5">
+                <p class="m-0 text-center text-white">Copyright &copy; 2023 by Ravana França
+                </p>
+            </div>
+        </footer>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js">
+            
+        </script>
+    </body>
+</html>
+
